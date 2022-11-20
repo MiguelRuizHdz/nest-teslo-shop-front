@@ -11,6 +11,11 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       <li>JHSAGDJJD</li>
     </ul>
 
+    <form id="message-form">
+      <input placeholder="message" id="message-input">
+    </form>
+
+
   </div>
 `
 
