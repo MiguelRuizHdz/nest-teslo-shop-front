@@ -11,9 +11,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <br />
     <span id="server-status">offline</span>
 
-    <ul id="clients-ul">
-      <li>JHSAGDJJD</li>
-    </ul>
+    <ul id="clients-ul"></ul>
 
     <form id="message-form">
       <input placeholder="message" id="message-input" />
@@ -21,13 +19,10 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 
     <h3>Messages</h3>
 
-    <ul id="messages-ul">
-    
-    </ul>
-
+    <ul id="messages-ul"></ul>
 
   </div>
-`
+`;
 
 // setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
 // connectToServer();
