@@ -5,7 +5,7 @@ let socket: Socket;
 export const connectToServer = ( token: string ) => {
 
 
-    const manager = new Manager('http://localhost:3000/socket.io/socket.io.js', {
+    const manager = new Manager('https://teslo-nest-ruiz.herokuapp.com/socket.io/socket.io.js', {
         extraHeaders: {
             hola: 'mundo',
             authentication: token
